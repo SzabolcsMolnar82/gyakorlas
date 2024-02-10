@@ -1,0 +1,51 @@
+/*
+.img {
+    width: 150px;
+    height: 600px;
+}
+*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 0;
+}
+header{
+    background-color: rgba(255,99,71,0.5);
+    color: azure;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: style type none;;
+    padding: 0;
+}
+nav{
+    position: relative;
+}
+nav ul li a {
+    text-decoration: dashed;
+    color: black;
+}
+section {
+    padding: 20px;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    background-color: blueviolet;
+    color: antiquewhite;
+    padding: 10px;
+    justify-content: space-between;
+}
+#akarmi {
+    background-color: aqua;
+}
+#akarmi2 {
+    background-color: rgb(77, 163, 163);
+}
+#akarmi3 {
+    background-color: rgba(225, 194, 59, 0.621);
+}
