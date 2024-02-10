@@ -21,7 +21,19 @@ nav ul {
     padding: 0;
 }
 nav{
-    position: relative;
+    position: fixed;
+    width: 100%;
+    background-color:rgba(225, 194, 59, 0.255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+nav ul li {
+    margin-right: 10px;
+    text-decoration: dashed;
+    color: black;
+    display: inline;
 }
 nav ul li a {
     text-decoration: dashed;
@@ -40,7 +52,7 @@ footer {
     padding: 10px;
     justify-content: space-between;
 }
-#akarmi {
+#akarmi1 {
     background-color: aqua;
 }
 #akarmi2 {
@@ -48,4 +60,7 @@ footer {
 }
 #akarmi3 {
     background-color: rgba(225, 194, 59, 0.621);
+}
+#akarmi4 {
+    background-color: rgba(90, 85, 62, 0.621);
 }
